@@ -114,27 +114,27 @@ const techStackImgs = [
 
 const techStackIcons = [
     {
-        name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
+        name: "Java Developer",
+        modelPath: "java.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
+        name: "Frontend Developer",
+        modelPath: "javascript_1.glb",
+        scale: 0.3,
+        rotation: [0, Math.PI / 4, 0],
+    },
+    {
+        name: "DevOps Enthusiast",
+        modelPath: "docker.glb",
+        scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Backend Developer",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
-    },
-    {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
+        name: "Command Line Lover",
+        modelPath: "tux.glb",
+        scale: 0.03,
         rotation: [0, 0, 0],
     },
     {
