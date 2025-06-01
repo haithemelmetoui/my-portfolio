@@ -121,9 +121,9 @@ const techStackIcons = [
     },
     {
         name: "Frontend Developer",
-        modelPath: "javascript_1.glb",
-        scale: 0.3,
-        rotation: [0, Math.PI / 4, 0],
+        modelPath: "/models/node-transformed.glb",
+        scale: 5,
+        rotation: [0, Math.PI / 2, 0],
     },
     {
         name: "DevOps Enthusiast",
@@ -147,22 +147,21 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        review: "Haithem played a key role in the development of the MyBIAT Corporate application. His contributions to enterprise features such as payments, account management, and notifications have strengthened the platform’s robustness. He demonstrated strong expertise in microservices, messaging systems, and integration with third-party tools like Keycloak, ActiveMQ, and T24.",
         imgPath: "/images/logo1.jpg",
         logoPath: "/images/logo1.jpg",
         title: "Backend Java Developer",
         date: "December 2023 - Present",
         responsibilities: [
-            "Collaborate with a diverse team on the development of new features for the MyBIAT Corporate applica- tion. Our goal was to provide enterprise customers with functionalities such as single and batch payment, card management, account management, authorization management, trading, and administrative functionality.",
+            "Collaborate with a diverse team on the development of new features for the MyBIAT Corporate application. Our objective was to develop a secure and extensible platform for enterprise banking services.",
             "Work with the Scrum methodology, conducting sprints every two weeks and presenting progress to the client at the end of each sprint.",
             "Ensure communication between various microservices.",
             "Implement push notification functionality using message queues, ensuring reliable and asynchronous delivery of real-time alerts to enterprise users.",
-            "Ensure the integration of different tools such as ActiveMQ, Keycloak, T24, Backbase with our application.",
-            "Contribute to the build and deployment process using Jenkins and OpenShift."
+            "Contribute to the build and deployment process."
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        review: "Haithem actively contributed to the success of both the TRADE and KYC applications at Zitouna Bank. He showed excellent technical skills in backend and frontend development, API integration, and team collaboration under Scrum methodology. His implementation of client onboarding and integration with systems like T24 and SIRAT Shadoc added real business value.",
         imgPath: "/images/logo2.jpg",
         logoPath: "/images/logo2.jpg",
         title: "Full Stack Java Developer",
@@ -178,7 +177,7 @@ const expCards = [
         ],
     },
     {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        review: "During his end-of-study internship, Haithem demonstrated strong autonomy and dedication. He successfully implemented key modules such as authentication, cart, payment, and courses in a microservice-based architecture. He also contributed to DevOps by setting up Jenkins pipelines and Docker integration, showing a great sense of initiative.",
         imgPath: "/images/logo3.jpg",
         logoPath: "/images/logo3.jpg",
         title: "End of Study internship - Full stack Java developer",
@@ -268,6 +267,7 @@ const socialImgs = [
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/haithem-el-metoui-1ab068224/"
     },
 ];
 
