@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 3, suffix: "+", label: "Years of Experience" },
+    { value: 10, suffix: "+", label: "Satisfied Clients" },
+    { value: 10, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -148,14 +148,17 @@ const techStackIcons = [
 const expCards = [
     {
         review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        imgPath: "/images/logo1.jpg",
+        logoPath: "/images/logo1.jpg",
+        title: "Backend Developer",
+        date: "December 2023 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Collaborate with a diverse team on the development of new features for the MyBIAT Corporate applica- tion. Our goal was to provide enterprise customers with functionalities such as single and batch payment, card management, account management, authorization management, trading, and administrative functionality.",
+            "Work with the Scrum methodology, conducting sprints every two weeks and presenting progress to the client at the end of each sprint.",
+            "Ensure communication between various microservices.",
+            "Implement push notification functionality using message queues, ensuring reliable and asynchronous delivery of real-time alerts to enterprise users.",
+            "Ensure the integration of different tools such as ActiveMQ, Keycloak, T24, Backbase with our application.",
+            "Contribute to the build and deployment process using Jenkins and OpenShift."
         ],
     },
     {
