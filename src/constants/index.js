@@ -11,10 +11,10 @@ const navLinks = [
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+    // {
+    //     name: "Testimonials",
+    //     link: "#testimonials",
+    // },
 ];
 
 const words = [
@@ -150,7 +150,7 @@ const expCards = [
         review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
         imgPath: "/images/logo1.jpg",
         logoPath: "/images/logo1.jpg",
-        title: "Backend Developer",
+        title: "Backend Java Developer",
         date: "December 2023 - Present",
         responsibilities: [
             "Collaborate with a diverse team on the development of new features for the MyBIAT Corporate applica- tion. Our goal was to provide enterprise customers with functionalities such as single and batch payment, card management, account management, authorization management, trading, and administrative functionality.",
@@ -163,26 +163,31 @@ const expCards = [
     },
     {
         review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        imgPath: "/images/logo2.jpg",
+        logoPath: "/images/logo2.jpg",
+        title: "Full Stack Java Developer",
+        date: "June 2022 - December 2023",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Development of the TRADE application for Zitouna Bank is a solution for money transfer, domiciliation and management of ongoing commercial transactions. Teamwork is being carried out by applying the Scrum methodology, with a sprint duration of two weeks.",
+            "Ensure the integration of different tools such as ActiveMQ, T24, with our application.",
+            "Contribute to the build and deployment process using GitLab.",
+            "Development of the KYC application for Zitouna within a team applying the Scrum methodology, comprising one backend developer, one frontend developer, two QA testers, one business analyst, and one Scrum Master, with a sprint duration of two weeks.",
+            "Implemented the prospect journey up to becoming a Zitouna client.",
+            "Integrated certification and electronic signature with ”SIRAT Shadoc Tunisia.”",
+            "Integrated APIs from T24 with the KYC application."
         ],
     },
     {
         review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        imgPath: "/images/logo3.jpg",
+        logoPath: "/images/logo3.jpg",
+        title: "End of Study internship - Full stack Java developer",
+        date: "November 2021 - June 2022",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Work with the Scrum methodology, conducting sprints every two weeks and presenting progress to the client at the end of each sprint.",
+            "Configure the gateway and the Eureka Server and en- sure communication between various microservices.",
+            "Implementation of Authentication, Cart, Online Pay- ment and Courses modules.",
+            "Set up a pipeline in Groovy with Jenkins for uploading Docker images."
         ],
     },
 ];
@@ -248,18 +253,18 @@ const testimonials = [
 ];
 
 const socialImgs = [
-    {
-        name: "insta",
-        imgPath: "/images/insta.png",
-    },
-    {
-        name: "fb",
-        imgPath: "/images/fb.png",
-    },
-    {
-        name: "x",
-        imgPath: "/images/x.png",
-    },
+    // {
+    //     name: "insta",
+    //     imgPath: "/images/insta.png",
+    // },
+    // {
+    //     name: "fb",
+    //     imgPath: "/images/fb.png",
+    // },
+    // {
+    //     name: "x",
+    //     imgPath: "/images/x.png",
+    // },
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
