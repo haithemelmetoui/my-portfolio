@@ -147,7 +147,7 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Haithem played a key role in the development of the MyBIAT Corporate application. His contributions to enterprise features such as payments, account management, and notifications have strengthened the platform’s robustness. He demonstrated strong expertise in microservices, messaging systems, and integration with third-party tools like Keycloak, ActiveMQ, and T24.",
+        review: "Haithem contributed to the development of the MyBIAT Corporate application. He helped build a secure and flexible platform for enterprise banking services.",
         imgPath: "/images/logo1.jpg",
         logoPath: "/images/logo1.jpg",
         title: "Backend Java Developer",
